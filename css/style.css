@@ -1,0 +1,66 @@
+@font-face {
+  font-family: Pufony;
+  src: url(../files/Pufony-1.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Pufony;
+  background-color: rgb(161, 184, 121);
+}
+
+header {
+  background-color: rgb(125, 143, 94);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  background-image: url("../img/Hedge.jpg");
+  background-size: cover;
+}
+header h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  text-shadow: 10px 10px 20px black;
+}
+
+p,
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 2rem;
+}
+
+main {
+  font-size: 30px;
+  background-image: url(../img/Herbal.jpg);
+  background-size: cover;
+}
+
+footer {
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image: url(../img/Herba.jpg);
+  background-size: cover;
+  text-shadow: 10px 10px 20px black;
+}
+footer a {
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+footer a:hover {
+  font-size: 35px;
+  transition: 0.4s;
+}/*# sourceMappingURL=style.css.map */
